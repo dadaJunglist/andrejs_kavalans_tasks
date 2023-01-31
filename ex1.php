@@ -19,4 +19,12 @@ echo "Hello World! My name is \"Andrejs\"."
 
 ?>
 
+<h1>My simple php script 2</h1>
+
+<?php
+
+date("d.m.y.")
+
+?>
+
 </html>
