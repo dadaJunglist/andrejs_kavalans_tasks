@@ -23,7 +23,7 @@ echo "Hello World! My name is \"Andrejs\"."
 
 <?php
 
-date("d.m.y.")
+echo date("d.m.y.")
 
 ?>
 
