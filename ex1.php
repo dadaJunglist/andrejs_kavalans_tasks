@@ -11,10 +11,12 @@
  <h1>My simple php script</h1>
 
 </body>
-</html>
+
 
 <?php
 
 echo "Hello World! My name is \"Andrejs\"."
 
 ?>
+
+</html>
