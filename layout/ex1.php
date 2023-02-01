@@ -11,12 +11,15 @@
  <h1>My simple php script</h1>
 
 </body>
-</html>
 
 <?php
-
-echo "Hello world!";
-echo "<br>";
-echo "Hello world!";
-
+echo "Hello World! My name is \"Andrejs\"."
 ?>
+
+<h1>Today is: </h1>
+
+<?php
+echo date("d.m.y");
+?>
+
+</html>
