@@ -1,0 +1,22 @@
+@media (max-width:830px){
+    .main{
+        display: block;
+    }
+    .main h2{
+        text-align: left;
+    }
+    .main img{
+        width:50%
+    }
+}
+@media screen and (min-device-width: 450px) and (max-device-width: 900px) { 
+    .main{
+        display: block;
+    }
+    .main h2{
+        text-align: left;
+    }
+    .imgblock{
+        margin-left:200px;
+    }
+}
