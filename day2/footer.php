@@ -7,5 +7,9 @@
   <div class="footer-copyright text-center py-3">© 2020 Copyright
   </div>
   <!-- Copyright -->
-
+  <div class="text-center">
+   <?php
+    echo "Last modified on ".date("F d Y H:i:s.", filemtime("variables.php")); 
+    ?>
+    </div>
 </footer></div>
