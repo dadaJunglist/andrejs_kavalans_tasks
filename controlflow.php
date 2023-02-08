@@ -100,11 +100,11 @@ $browser = $_SERVER['HTTP_USER_AGENT'];
 $criterea = "Chrome";
 if(strpos($browser,$criterea))
 {
-    echo "you are using Goolge Chrome";
+    echo "you are using $criterea";
 }
 else
 {
-    echo"you are not using Goolge Chrome";
+    echo"you are not using $criterea";
 }
 ?>
 
