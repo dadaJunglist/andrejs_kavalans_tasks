@@ -54,7 +54,7 @@ transform: translate(-50%, -50%);
  }
 
 .main { grid-area: main; background-color: #1A1A1D; opacity: 93%;
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
@@ -90,7 +90,7 @@ transform: translate(-50%, -50%);
 }
 
 .grid-container {
-    grid-template-rows: 40px auto 140px;
+    grid-template-rows: 40px auto 180px;
     grid-template-columns: 5vw auto auto auto auto auto auto auto auto auto auto 5vw;
     grid-template-areas:
     'header header header header header header header header header header header header'

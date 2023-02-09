@@ -1,12 +1,14 @@
     <div class="footer">
     
     <div style="flex-grow: 24;">
-        <h2><p2 style="color:#fff; padding: 0;" >This is a half pizzeria </p2>
-    <p3 style="color: #950740; padding: 0 ;">and half burgeria</p3></h2>
+    <?php
+    echo "© 2023 Copyright <br>";
+    echo "Last modified on ".date("F d Y H:i:s.", filemtime($_SERVER['SCRIPT_FILENAME'])); 
+    ?>
     </div>
     <div class="break"></div>
     
-    <div style="flex-grow: 1;"><img style="width: 35%; border-radius: 0px;" src="images/youtube.jpg" alt="youtube"></div>
+    <div style="flex-grow: 1;"><img style="width: 35%; border-radius: 0px;" src="../website/images/youtube.jpg" alt="youtube"></div>
     <div style="flex-grow: 1;"><img style="width: 35%; border-radius: 0px;" src="images/facebook.jpg" alt="facebook"></div>
     <div style="flex-grow: 1;"><img style="width: 35%; border-radius: 0px;" src="images/instagram.jpg" alt="instagram"></div>
     <div style="flex-grow: 1;"><img style="width: 35%; border-radius: 0px;" src="images/twitter.jpg" alt="twitter"></div>
