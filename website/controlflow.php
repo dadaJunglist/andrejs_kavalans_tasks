@@ -108,9 +108,12 @@ echo "<br>";
 </form>
 
 <?php
-$name = $_GET["name"];
-$age = $_GET["age"];
-echo $name . " ";
+if (isset($_GET["name"]) && isset($_GET["age"]))
+{
+    $name = $_GET["name"];
+    $age = $_GET["age"];
+    
+    echo $name . " ";
    
     if($age >= 18)
     {
@@ -120,6 +123,8 @@ echo $name . " ";
     {
         echo "is not eligable to vote";
     }
+}
+
 
 //task 5 
 echo "<br>";

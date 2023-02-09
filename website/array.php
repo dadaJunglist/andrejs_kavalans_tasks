@@ -78,7 +78,8 @@ if (isset($result))
 {
     echo "<h2> Result: $result </h2>";
 }
-      
+        
+echo "<br>";     
 echo "<h3>task 1</h3>";
 echo "<br>";
     
@@ -88,7 +89,7 @@ foreach($courses as $language)
     echo "<li> $language </li>";
 }
 
-    
+echo "<br>";    
 echo "<h3>task 2</h3>";
 echo "<br>";
     
@@ -98,33 +99,85 @@ echo "<br>";
 unset($courses1[1]);
 print_r(array_values($courses1));
 
+echo "<br>";
 echo "<h3>task 3</h3>";
 echo "<br>";
 
-$courses3=array("111"=>"PHP", "222"=>"HTML", "333"=>"JavaScript", "444"=>"CMS", "555"=>"Project");
-print_r(array_values($courses3)); echo "<br>";
-sort($courses3);
-print_r(array_values($courses3)); echo "<br>";
-ksort($courses3);
-print_r(array_values($courses3)); echo "<br>"; 
-rsort($courses3);
-print_r(array_values($courses3)); echo "<br>";
-krsort($courses3);
-print_r(array_values($courses3)); echo "<br>";
-    
+$courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
+    sort($courses3);
+    print_r($courses3);
+        echo "<br>";
+    rsort($courses3);
+    print_r($courses3);
+        echo "<br>";
+$courses3=array("de"=>"PHP","ge"=>"HTML","pe"=>"JavaScript","ze"=>"CMS","ke"=>"Project");       
+    ksort($courses3);
+        print_r($courses3);
+        echo "<br>";
+    krsort($courses3);
+        print_r($courses3);
+        echo "<br>";
+        
+echo "<br>";
 echo "<h3>task 4</h3>";
 echo "<br>";
     
 $courses4=array("php", "html", "javascript", "cms", "project");
 print_r($courses4); echo "<br>";
-foreach($courses4 as $course)
+
+for($i=0; $i<5; $i++)
 {
-    $course4[$course]=$course;
-    $course = strtoupper($course);
-    echo $course; echo "<br>";
+    $courses4[$i]=strtoupper($courses4[$i]);
 }
     print_r($courses4);
+
+echo "<br>";
+echo "<h3>task 5</h3>";
+echo "<br>";
+        
+$colors = array("khakki"=>"#608D54", "orange"=>"#EC9930", "indigo"=>"#284090");
+
+        foreach($colors as $color => $code)
+        {
+            echo "HEX code for $color is $code<br>";
+        }
+ 
+echo "<br>";
+echo "<h3>task 6</h3>";
+echo "<br>";
+
+$temp_rec = array(78, 60, 62, 68, 71, 68, 73, 85, 66, 64, 76, 63, 75, 76, 73, 68, 62, 73, 72, 65, 74, 62, 62, 65, 64, 68, 73, 75, 79, 73);
+
+        echo "The average temperature is: " . array_sum($temp_rec)/count($temp_rec) . "<br>";
+        
+        rsort($temp_rec);
+        echo "<br>The highest 5 temperatures are: ";
+        $j=0;
+        for ($i=0; $i<5; $i++)
+        {   
+            echo $temp_rec[$j] . ", ";
+            do
+            {
+                $j++;
+            }
+            while($temp_rec[$j] == $temp_rec[$j-1]);
+        }
+        
+        sort($temp_rec);
+        echo "<br>The lowest 5 temperatures are: ";
+        $j=0;
+        for ($i=0; $i<5; $i++)
+        {   
+            echo $temp_rec[$j] . ", ";
+            do
+            {
+                $j++;
+            }
+            while($temp_rec[$j] == $temp_rec[$j-1]);
+        }
+        
  ?>   
+ 
 </div>
         
 <?php include "footer.php"; ?>
