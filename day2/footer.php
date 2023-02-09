@@ -9,7 +9,7 @@
   <!-- Copyright -->
   <div class="text-center">
    <?php
-    echo "Last modified on ".date("F d Y H:i:s.", filemtime("variables.php")); 
+    echo "Last modified on ".date("F d Y H:i:s.", filemtime($_SERVER['SCRIPT_FILENAME'])); 
     ?>
     </div>
 </footer></div>
