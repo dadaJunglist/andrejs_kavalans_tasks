@@ -27,8 +27,8 @@
             <form action="/">
                 <h1>Reservation Form</h1>     
                 <p>Name</p>
-                <input type="text" name="name" placeholder="First name" />
-                <input type="text" name="name" placeholder="Last name" />
+                <input type="text" name="fname" placeholder="First name" />
+                <input type="text" name="lname" placeholder="Last name" />
                 
                 <p>Email</p>
                 <input type="email" name="email" placeholder="email@address.com"/>
@@ -44,7 +44,7 @@
                     <input type="time" name="btime" required/>
      
                 <p>How many people will you be with?</p>
-                    <input type="text" name="language"/>
+                    <input type="integer" name="amount"/>
      
                 <p>Additional notes</p>
                     <textarea rows="3"></textarea>
