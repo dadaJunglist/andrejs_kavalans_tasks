@@ -27,7 +27,7 @@
         <a class="nav-link" aria-current="page" href="index.php">Main</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="aboutus.php">About us</a>
+        <a class="nav-link" href="/aboutus.php">About us</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contactus.php">Contact us</a>
