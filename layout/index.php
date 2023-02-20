@@ -9,6 +9,8 @@
 <body>
     
 <?php include "header.php"; ?>
+<script src="js/site.js"></script>
+<input type="button" onclick="hello()" value="Click Me">
 
 <h1> This is main page</h1>
  
