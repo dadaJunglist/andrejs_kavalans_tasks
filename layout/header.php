@@ -24,13 +24,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="index.php">Main</a>
+        <a class="nav-link" aria-current="page" href="../layout/index.php">Main</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="aboutus.php">About us</a>
+        <a class="nav-link" href="../layout/aboutus.php">About us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contactus.php">Contact us</a>
+        <a class="nav-link" href="../layout/contactus.php">Contact us</a>
       </li>      
        <li class="nav-item">
         <a class="nav-link" href="../layout/jsinclass.php">JavaScript</a>
