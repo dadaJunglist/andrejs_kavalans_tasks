@@ -31,6 +31,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contactus.php">Contact us</a>
+      </li>      
+       <li class="nav-item">
+        <a class="nav-link" href="../layout/jsinclass.php">JavaScript</a>
       </li>
 
       
